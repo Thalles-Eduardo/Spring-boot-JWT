@@ -30,7 +30,7 @@ Essa API faz a geração de um JWT(Json web token), autenticando uma página atr
 
 - Clonar repositório git
 ```bash
-$ git clone 
+$ git clone https://github.com/Thalles-Eduardo/Spring-boot-JWT
 ```
 - Executar a aplicação:
 ```bash
@@ -41,22 +41,23 @@ $ ./mvnw spring-boot:run
 
 Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [Postman](https://www.postman.com/downloads/) ou de sua preferência.
 
-- Criar Usuário
+- Criar usuário.  
+
+![Criar usuário](https://github.com/Thalles-Eduardo/Spring-boot-JWT/assets/69612509/ac2193dd-2256-4018-999e-d7b028594acb)
+
+- Fazer login.
+
+![Fazer login](https://github.com/Thalles-Eduardo/Spring-boot-JWT/assets/69612509/63c872b9-26be-4608-86a8-13a04b40b95d)
+
+- Adicionar produto, para adicionar o produto você deve passar o token, pelo Postman deve-se ir nas opções "Authorization" -> "Type" -> "Bearer Token" e assim colar o token no campo "Token".
+
+![Adicionar produto](https://github.com/Thalles-Eduardo/Spring-boot-JWT/assets/69612509/938acf4f-d31a-49d3-b54d-8f957fc01222)
+
+- Listas de todos os produtos, para listar todos os produtos basta fazer o mesmo procedimento feito no adicionar produto, mas com o método GET.
+  
+![Listas de todos os produtos](https://github.com/Thalles-Eduardo/Spring-boot-JWT/assets/69612509/56dbd941-56b7-4659-b451-fe7a9b91161a)
 
 
+# Autor
 
-- Fazer transferência, é necessário ter dois usuários criados
-
-
-- Atualizar Usuário, é necessário passar o id do usuário, mudei apenas o campo "value"
-
-
-
-- Listas de todos os usuários
-
-
-
-
-- Listas de todas as transações
-
-
+Thalles Eduardo Dias da Silva
