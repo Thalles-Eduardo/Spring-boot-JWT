@@ -58,6 +58,8 @@ Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [Postman](ht
 ![Listas de todos os produtos](https://github.com/Thalles-Eduardo/Spring-boot-JWT/assets/69612509/56dbd941-56b7-4659-b451-fe7a9b91161a)
 
 
-# Autor
+# Author
 
 Thalles Eduardo Dias da Silva
+
+- [Linkedin](https://linkedin.com/in/thalles-eduardo-7297a6237)
